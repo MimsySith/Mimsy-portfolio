@@ -1,0 +1,46 @@
+.navMenu{
+    width: 315px;
+    height: 55px;
+    background-color: #87cefa;
+    font-size:18pt;
+    border-radius: 10px;
+}
+
+.footer{
+    font-size: 10pt;
+    background-color: #87cefa;
+    text-align: center;
+}
+
+.boxOne{
+    background-color: #0000ff;
+}
+
+.boxTwo{
+    background-color: #8a2be2;
+}
+
+.boxThree{
+    background-color: #afeeee;
+}
+
+.boxFour{
+    background-color: #e0ffff;
+}
+
+.largText{
+    color:#ffffff;
+    font-size: 18pt;
+    text-align: center;
+}
+
+#welcomeText{
+    color: #ffffff;
+    font-size: 48pt;
+}
+
+#addText{
+    color: #ffffff;
+    font-size: 24pt;
+    text-align: right;
+}
