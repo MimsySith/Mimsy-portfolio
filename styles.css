@@ -34,7 +34,13 @@
     text-align: center;
 }
 
-#welcomeText{
+.bioText{
+    color: #000000;
+    font-size: 14pt;
+    text-align: left;
+}
+
+.welcomeText{
     color: #ffffff;
     font-size: 48pt;
 }
