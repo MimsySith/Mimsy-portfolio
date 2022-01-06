@@ -6,6 +6,18 @@
     border-radius: 10px;
 }
 
+@media (max-width: 750px) {
+    .navMenu{
+        display: none;
+    }
+}
+
+.navMenuItem{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
 .footer{
     font-size: 10pt;
     background-color: #87cefa;
@@ -50,4 +62,6 @@
     font-size: 24pt;
     text-align: right;
 }
+
+
 
