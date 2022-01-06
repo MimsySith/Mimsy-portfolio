@@ -6,11 +6,7 @@
     border-radius: 10px;
 }
 
-@media (max-width: 750px) {
-    .navMenu{
-        display: none;
-    }
-}
+
 
 .navMenuItem{
     color: #ffffff;
@@ -63,5 +59,48 @@
     text-align: right;
 }
 
+.spanClass{
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+@media (max-width: 761.98px) {
+    .navMenu{
+        display: none;
+    }
+
+    .spanClass{
+        font-size:12pt;
+        font-weight: bold;
+    }
+
+    .welcomeText{
+        font-size: 18pt;
+        color: #ffffff;
+    }
+
+    #addText{
+        font-size: 14pt;
+        text-align: right;
+        color: #ffffff;
+    }
+
+    .largText{
+        font-size: 12pt;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .bioText{
+        font-size: 8pt;
+        text-align: left;
+        color: #000000;
+    }
+    .footer{
+        font-size: 6pt;
+        background-color: #87cefa;
+        text-align: center;
+    }
+}
 
 
