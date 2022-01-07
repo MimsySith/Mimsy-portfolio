@@ -6,7 +6,10 @@
     border-radius: 10px;
 }
 
-
+.navHover:hover{
+    background-color: #8a2be2;
+    color:#ffffff;
+}
 
 .navMenuItem{
     color: #ffffff;
@@ -48,6 +51,12 @@
     text-align: left;
 }
 
+.bioText1{
+    color: #000000;
+    font-size: 14pt;
+    text-align: right;
+}
+
 .welcomeText{
     color: #ffffff;
     font-size: 48pt;
@@ -62,6 +71,12 @@
 .spanClass{
     font-size: 24pt;
     font-weight: bold;
+}
+
+.posCent{
+    position: relative;
+    left: 0%;
+    top: 40%;
 }
 
 @media (max-width: 761.98px) {
@@ -96,6 +111,13 @@
         text-align: left;
         color: #000000;
     }
+
+    .bioText1{
+        color: #000000;
+        font-size: 8pt;
+        text-align: right;
+    }
+
     .footer{
         font-size: 6pt;
         background-color: #87cefa;
