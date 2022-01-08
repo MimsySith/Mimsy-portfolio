@@ -79,6 +79,9 @@
     background-color: #8a2be2;
     color: #ffffff;
     border-radius: 5px;
+    position: relative;
+    left: 5px;
+    top: 55px;
 }
 
 #addText{
@@ -100,6 +103,65 @@
 
 .hideNav{
     display: none;
+}
+
+.whiteText{
+    color: #ffffff;
+    font-size: 12pt;
+    position: relative;
+    left: 5px;
+    top: 50px;
+    
+}
+
+@media (max-width: 1000px){
+
+    .spanClass{
+        font-size:18pt;
+        font-weight: bold;
+    }
+
+    .welcomeText{
+        font-size: 28pt;
+        color: #ffffff;
+    }
+
+    #addText{
+        font-size: 18pt;
+        text-align: right;
+        color: #ffffff;
+    }
+
+    .largText{
+        font-size: 16pt;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .bioText{
+        font-size: 8pt;
+        text-align: left;
+        color: #000000;
+    }
+
+    .bioText1{
+        color: #000000;
+        font-size: 11pt;
+        text-align: right;
+    }
+
+    .footer{
+        font-size: 8pt;
+        background-color: #87cefa;
+        text-align: center;
+    }
+
+    .whiteText{
+        color: #ffffff;
+        font-size: 10pt;
+        
+    }
+
 }
 
 @media (max-width: 761.98px) {
@@ -150,6 +212,13 @@
         background-color: #87cefa;
         text-align: center;
     }
+    .whiteText{
+        color: #ffffff;
+        font-size: 8pt;
+        
+    }
+
+    
 }
 
 
