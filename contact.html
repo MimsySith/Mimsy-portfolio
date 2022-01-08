@@ -93,36 +93,36 @@
                     <span class = "smlText">Your email will only be used for responding to your message/query</span><br><br>
                     <span>And some additional information: </span><br>
                     <label>
-                    <input type = "radio" value = "human" name = "r1" id = "human">Human</label><br>
+                    <input type = "radio" value = "human" name = "r1" id = "human" aria-label = "select human">Human</label><br>
                     <label>
-                        <input type = "radio" value = "wookiee" name = "r1" id = "wookiee">Wookiee</label><br>
+                        <input type = "radio" value = "wookiee" name = "r1" id = "wookiee" aria label = "select wookiee">Wookiee</label><br>
                     <label>
-                        <input type = "radio" value = "klingon" name = "r1" id = "klingon" checked>Klingon</label><br>
+                        <input type = "radio" value = "klingon" name = "r1" id = "klingon" aria-label = "select klingon" checked>Klingon</label><br>
                     <label>
-                        <input type = "radio" value = "rns" name = "r1" id = "rns">Rather not say</label> <br><br>
+                        <input type = "radio" value = "rns" name = "r1" id = "rns" aria-label = "select rather not say">Rather not say</label> <br><br>
                     
                     <span>Political affiliation:</span><br>
                     <select class = "form-select" aria-label="Select your political affiliation" name = "Political affiliation">
                         <option value = "select" id = "select" name = "select">--select--</option>
-                        <option value = "farRight" id = "farRight" name = "farRight">Far Right</option>
-                        <option value = "exLeft" id = "exLeft" name = "exLeft">Extreme Left</option>
-                        <option value = "liberal" id = "liberal" name = "liberal">Wishy Washy Liberal</option>
-                        <option value = "quaker" id = "quaker" name = "quaker">Quaker</option>
+                        <option value = "farRight" id = "farRight" name = "farRight" aria-label = "Far Right">Far Right</option>
+                        <option value = "exLeft" id = "exLeft" name = "exLeft" aria-label="Extreme Left">Extreme Left</option>
+                        <option value = "liberal" id = "liberal" name = "liberal" aria-label="Wishy washy liberal">Wishy Washy Liberal</option>
+                        <option value = "quaker" id = "quaker" name = "quaker" aria-label="Quaker">Quaker</option>
                     </select><br><br>
 
                     <span class = "form-label">Finally, your message:</span><br>
-                    <textarea class ="form-control" name = "message" id = "message" cols = "28" rows = "9" placeholder="Say something nice :)"></textarea>
+                    <textarea class ="form-control" name = "message" id = "message" cols = "28" rows = "9" placeholder="Say something nice :)" aria-label="your message"></textarea>
                     <br>
-                    <input class = "btn btn-primary" type = "submit" value = "Submit Form">
+                    <input class = "btn btn-primary" type = "submit" value = "Submit Form" aria-label="submit button">
                     <!--I found the information about the following reset buttons on w3 schools-->
-                    <input class = "btn btn-success" type = "reset" value = "Reset Form">
+                    <input class = "btn btn-success" type = "reset" value = "Reset Form" aria-label="clear input fields">
                 </form>
             </div>
 
             <div class = "col-6 boxFour">
                 <p class = "bioText1 posCent">Miriam Smith<br>
-                &phone; <a href = "tel+61437009947">0437 009 947</a><br>
-                email: <a href = "mailto:(miriam@smithydrafting.com.au)">miriam@smithydrafting.com.au</a>
+                &phone; <a href = "tel+61437009947" aria-label="phone number">0437 009 947</a><br>
+                email: <a href = "mailto:(miriam@smithydrafting.com.au)" aria-label="email address">miriam@smithydrafting.com.au</a>
              </p>
             </div>
         </div>
