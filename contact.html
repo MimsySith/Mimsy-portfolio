@@ -47,26 +47,26 @@
                             </div>
                           </nav>
                           <!--The following is my nav menu, written with Bootstrap and minor modifications from my own CSS file-->
-                <div class = "navMenu">
-                    <nav class = "nav nav-bar nav-pils nav-fill">
-                        <ul class = "nav nav-pills nav-fill">
-                            <li class = "nav-item">
-                            <a class = "nav-link navHover" aria-label = "home page" href = "index.html">Home</a>
-                            </li>
-                            <li class = "nav-item dropdown">
-                            <a class = "nav-link navHover" data-bs-toggle = "dropdown" aria-expanded="false" role = "button" aria-label = "About menu" href = "#">About</a>
-                            <ul class = "dropdown-menu">
-                                <li><a class = "dropdown-item" href = "bio.html" aria-label = "Biography page">Bio</a></li>
-                                <li><a class = "dropdown-item" href = "#" aria-label = "Portfolio page">Portfolio</a></li>
-                                <li><a class = "dropdown-item" href = "#" aria-label = "Qualifications">Qualifications</a></li>
-                            </ul>
-                            </li>
-                            <li class = "nav-item">
-                            <a class = "nav-link navHover active" aria-label = "Contact page" href = "contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                          
+                            <nav class = "nav nav-bar nav-pills nav-fill navMenu">
+                                <ul class = "nav nav-pills nav-fill">
+                                    <li class = "nav-item navThing">
+                                    <a class = "nav-link navHover navThing" aria-label = "home page" href = "index.html">Home</a>
+                                    </li>
+                                    <li class = "nav-item navThing dropdown">
+                                    <a class = "nav-link navHover navThing" data-bs-toggle = "dropdown" aria-expanded="false" role = "button" aria-label = "About menu" href = "#">About</a>
+                                    <ul class = "dropdown-menu">
+                                        <li><a class = "dropdown-item" href = "bio.html" aria-label = "Biography page">Bio</a></li>
+                                        <li><a class = "dropdown-item" href = "#" aria-label = "Portfolio page">Portfolio</a></li>
+                                        <li><a class = "dropdown-item" href = "#" aria-label = "Qualifications">Qualifications</a></li>
+                                    </ul>
+                                    </li>
+                                    <li class = "nav-item navThing">
+                                    <a class = "nav-link navHover navThing active" aria-label = "Contact page" href = "H">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        
                 </div>
             </div>
 
@@ -82,7 +82,37 @@
         </div>
 
         <div class = "row">
-            <div class = "col-6 boxThree"></div>
+            <div class = "col-6 boxThree">
+                <form action = "#" method ="post" enctype="multipart/form-data">
+                    <label class = "form-label" for = "name">Name: </label>
+                    <input class = "form-control" type = "text" name = "name" id = "name" required = "required"/><br><br>
+                    <label class = "form-label" for = "email">Email: </label>
+                    <input class = "form-control" type = "email" name = "email" id = "email" required = "required"/><br><br>
+                    <span>And some additional information: </span><br>
+                    <label>
+                    <input type = "radio" value = "r1" name = "r1" id = "human">Human</label><br>
+                    <label>
+                        <input type = "radio" value = "r1" name = "r1" id = "wookiee">Wookiee</label><br>
+                    <label>
+                        <input type = "radio" value = "r1" name = "r1" id = "klingon" checked>Klingon</label><br>
+                    <label>
+                        <input type = "radio" value = "r1" name = "r1" id = "rns">Rather not say</label> <br><br>
+                    
+                    <span>Political affiliation:</span><br>
+                    <select class = "form-select" aria-label="Select your political affiliation" name = "Political affiliation">
+                        <option value = "select" id = "select">--select--</option>
+                        <option value = "farRight" id = "farRight">Far Right</option>
+                        <option value = "exLeft" id = "exLeft">Extreme Left</option>
+                        <option value = "liberal" id = "liberal">Wishy Washy Liberal</option>
+                        <option value = "quaker" id = "quaker">Quaker</option>
+                    </select><br><br>
+
+                    <span class = "form-label">Finally, your message:</span><br>
+                    <textarea class ="form-control" name = "message" id = "message" cols = "28" rows = "9" placeholder="Say something nice :)"></textarea>
+                    <br>
+                    <input class = "btn btn-primary" type = "submit" value = "Submit Form">
+                </form>
+            </div>
 
             <div class = "col-6 boxFour">
                 <p class = "bioText1 posCent">Miriam Smith<br>

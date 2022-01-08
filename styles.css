@@ -1,20 +1,27 @@
 .navMenu{
     width: 315px;
-    height: 55px;
-    background-color: #87cefa;
+    height: 53px;
+    background-color: #000000;
     font-size:18pt;
     border-radius: 10px;
+    color:#ffffff;
+}
+
+.navThing{
+    width: 33%;
 }
 
 .navHover:hover{
     background-color: #8a2be2;
     color:#ffffff;
+    width: 33%;
 }
 
 .navMenuItem{
     color: #ffffff;
     text-decoration: none;
     font-size: 10pt;
+    width: 33%;
 }
 
 .footer{
