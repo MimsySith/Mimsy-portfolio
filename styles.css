@@ -69,6 +69,17 @@
     font-size: 48pt;
 }
 
+.smlText{
+    color: #808080;
+    font-size: 8pt;
+}
+
+.buttonOne{
+    background-color: #8a2be2;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
 #addText{
     color: #ffffff;
     font-size: 24pt;
