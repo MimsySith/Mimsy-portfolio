@@ -1,3 +1,4 @@
+
 .navMenu{
     width: 315px;
     height: 53px;
@@ -97,9 +98,17 @@
     top: 40%;
 }
 
+.hideNav{
+    display: none;
+}
+
 @media (max-width: 761.98px) {
     .navMenu{
         display: none;
+    }
+
+    .hideNav{
+        display:block;
     }
 
     .spanClass{
