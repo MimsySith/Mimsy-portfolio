@@ -55,10 +55,10 @@
                     <nav class = "nav nav-bar nav-pills nav-fill navMenu">
                         <ul class = "nav nav-pills nav-fill">
                             <li class = "nav-item navThing">
-                            <a class = "nav-link active navHover navThing" aria-label = "home page" href = "index.html">Home</a>
+                            <a class = "nav-link navHover navThing" aria-label = "home page" href = "index.html">Home</a>
                             </li>
                             <li class = "nav-item navThing dropdown">
-                            <a class = "nav-link navHover navThing" data-bs-toggle = "dropdown" aria-expanded="false" role = "button" aria-label = "About menu" href = "#">About</a>
+                            <a class = "nav-link navHover navThing active" data-bs-toggle = "dropdown" aria-expanded="false" role = "button" aria-label = "About menu" href = "#">About</a>
                             <ul class = "dropdown-menu">
                                 <li><a class = "dropdown-item" href = "bio.html" aria-label = "Biography page">Bio</a></li>
                                 <li><a class = "dropdown-item" href = "portfolio.html" aria-label = "Portfolio page">Portfolio</a></li>
@@ -74,13 +74,13 @@
                 </div>
             </div>
         </header>
-
+        <main>
         <div class = "row">
             <div class = "col-6 boxOne">
                 <h3 class = "whiteText">Click on the following button to download a copy of my CV:</h3><br>
                     <!--This download function was not covered in lectures, I found it with an internet search at
                     www.w3schools.com/tags/att_a_download.asp-->
-                    <a href = "CV.docx" download><button class = "buttonOne">Download CV</button></a>
+                    <a href = "CV.docx" download aria-label="Click to download CV"><button class = "buttonOne">Download CV</button></a>
             </div>
             <div class = "col-6 boxTwo">
                 <h1 class = "largText">My qualifications are:</h1>
@@ -102,7 +102,7 @@
                 <p class = "bioText">Placeholder text!</p>
             </div>
         </div>
-
+        </main>
         <div class = "row">
             <div class = "col-12">
                 <footer class = "footer">&copy; 2022 Miriam Smith | Insert Legal Bollocks Here</footer>

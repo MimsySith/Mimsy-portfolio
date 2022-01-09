@@ -18,12 +18,22 @@
     width: 33%;
 }
 
+.navHover:active{
+    border: 2px solid #0000ff;
+}
+ .navHover:focus{
+     background-color: #8a2be2;
+     color: #ffffff;
+ }
+
 .navMenuItem{
     color: #ffffff;
     text-decoration: none;
     font-size: 10pt;
     width: 33%;
 }
+
+
 
 .footer{
     font-size: 10pt;
