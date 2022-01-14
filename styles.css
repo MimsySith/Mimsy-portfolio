@@ -46,11 +46,11 @@
 }
 
 .boxTwo{
-    background-color: #8a2be2;
+    background-color: #000000;
 }
 
 .boxThree{
-    background-color: #afeeee;
+    background-color: #000000;
 }
 
 .boxFour{
@@ -87,8 +87,12 @@
 }
 
 .smlText{
-    color: #808080;
+    color: #ffffff;
     font-size: 8pt;
+}
+
+.wText{
+    color: #ffffff;
 }
 
 .buttonOne{

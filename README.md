@@ -9,3 +9,5 @@ I have followed a basic type of website design where the entire page is split in
 I did have brief trouble with media queries until I remembered CSS reads top to bottom, and if you have more than one bit of code abut a unique type, the code closer to the bottom takes precedence.
 
 I also had to carefully look at several websites about accessibility. This meant I made several changes, including but not limited to adding plenty of heading tags, adding a main tag to each page, and making the navbar light up when activated by the tab key as well as the mouse.
+
+I am also finding the design part of creating a website a bit of a mystery. I have started researching UX and UI design as a result. Hopefully my design skills will improve in time.
