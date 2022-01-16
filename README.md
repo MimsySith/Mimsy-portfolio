@@ -11,3 +11,5 @@ I did have brief trouble with media queries until I remembered CSS reads top to 
 I also had to carefully look at several websites about accessibility. This meant I made several changes, including but not limited to adding plenty of heading tags, adding a main tag to each page, and making the navbar light up when activated by the tab key as well as the mouse.
 
 I am also finding the design part of creating a website a bit of a mystery. I have started researching UX and UI design as a result. Hopefully my design skills will improve in time.
+
+I have noticed I have a tendency towards messy code formatting. I'll have to watch that, as it makes the code harder for me to read, and therefore harder to debug, not to mention hard for anyone else to read.
