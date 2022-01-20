@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
 
     <!--The following two meta tags indicate that I am using the most common character coding for the internet, and that my webpage
@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
     <!--The following is a link to my own CSS stylesheet-->
-    <link rel = "stylesheet" type = "text/css" href = "styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
     <!--The following are links to Bootstrap JavaScript files, taken from the Get Bootstrap website-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -23,84 +23,86 @@
 
 </head>
 <body>
-    <div class = "container">
+    <div class="container">
         <header>
             <!--The following row contains one coloumn, in which I am putting my nav bars-->
-            <div class = "row">
-                <div class = "col-12">
+            <div class="row">
+                <div class="col-12">
+
                     <!--The following hamburger icon navbar was taken from the Bootstrap website and is not my own code-->
-                    <nav class = "nav navbar navbar-expand-md">
+                    <nav class="nav navbar navbar-expand-md">
                         <div class="collapse" id="navbarToggleExternalContent">
                             <div class="bg-dark p-4">
                               <h5 class="text-white h4">Navigation Menu</h5>
                               <span class="text-muted">Please make your selection:</span><br>
-                              <a class = "navMenuItem" aria-label = "home page" href = "index.html">Home</a><br>
-                              <a class = "navMenuItem" aria-label = "biography" href = "bio.html">Bio</a><br>
-                              <a class = "navMenuItem" aria-label = "portfolio" href = "portfolio.html">Portfolio</a><br>
-                              <a class = "navMenuItem" aria-label = "qualifications" href = "#">Qualifications</a><br>
-                              <a class = "navMenuItem" aria-label = "contact me" href = "contact.html">Contact</a><br>
+                              <a class="navMenuItem" aria-label = "home page" href="index.html">Home</a><br>
+                            <a class="navMenuItem" aria-label="biography" href="bio.html">Bio</a><br>
+                            <a class="navMenuItem" aria-label="portfolio" href="portfolio.html">Portfolio</a><br>
+                            <a class="navMenuItem" aria-label="qualifications" href="#">Qualifications</a><br>
+                            <a class="navMenuItem" aria-label="contact me" href="contact.html">Contact</a><br>
                             </div>
-                        </div>
-
-                          <nav class="navbar navbar-dark bg-dark hideNav">
+                            
+                          </div>
+                          <nav class="navbar navbar-dark bg-dark hide-nav">
                             <div class="container-fluid">
                               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                               </button>
                             </div>
                           </nav>
-                          
+
                           <!--The following is my nav menu, written with Bootstrap and minor modifications from my own CSS file-->
                 
-                    <nav class = "nav nav-bar nav-pills nav-fill navMenu">
-                        <ul class = "nav nav-pills nav-fill">
-                            <li class = "nav-item navThing">
-                            <a class = "nav-link navHover navThing" aria-label = "home page" href = "index.html">Home</a>
-                            </li>
-                            <li class = "nav-item navThing dropdown">
-                            <a class = "nav-link navHover navThing active" data-bs-toggle = "dropdown" aria-expanded="false" role = "button" aria-label = "About menu" href = "#">About</a>
-                                <ul class = "dropdown-menu">
-                                    <li><a class = "dropdown-item" href = "bio.html" aria-label = "Biography page">Bio</a></li>
-                                    <li><a class = "dropdown-item" href = "portfolio.html" aria-label = "Portfolio page">Portfolio</a></li>
-                                    <li><a class = "dropdown-item" href = "#" aria-label = "Qualifications">Qualifications</a></li>
+                         
+                            <nav class="nav nav-bar nav-pills nav-fill nav-menu">
+                                <ul class="nav nav-pills nav-fill">
+                                    <li class="nav-item nav-thing">
+                                    <a class="nav-link nav-hover nav-thing" aria-label="home page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item nav-thing dropdown">
+                                    <a class="nav-link nav-hover nav-thing active" data-bs-toggle="dropdown" aria-expanded="false" role="button" aria-label="About menu" href="#">About</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="bio.html" aria-label="Biography page">Bio</a></li>
+                                        <li><a class="dropdown-item" href="portfolio.html" aria-label="Portfolio page">Portfolio</a></li>
+                                        <li><a class="dropdown-item" href="#" aria-label="Qualifications">Qualifications</a></li>
+                                    </ul>
+                                    </li>
+                                    <li class="nav-item nav-thing">
+                                    <a class="nav-link nav-hover nav-thing" aria-label="Contact page" href="contact.html">Contact</a>
+                                    </li>
                                 </ul>
-                            </li>
-                            <li class = "nav-item navThing">
-                            <a class = "nav-link navHover navThing" aria-label = "Contact page" href = "contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                
+                            </nav>
+                       </nav> 
                 </div>
             </div>
         </header>
         <main>
-        <div class = "row">
-            <div class = "col-6 boxOne">
-                <h3 class = "whiteText">Click on the following button to download a copy of my CV:</h3><br>
+        <section class="row">
+            <div class="col-6 box-one">
+                <h3 class="white-text">Click on the following button to download a copy of my CV:</h3><br>
                     <!--This download function was not covered in lectures, I found it with an internet search at
                     www.w3schools.com/tags/att_a_download.asp-->
-                    <a href = "CV.docx" download aria-label="Click to download CV"><button class = "buttonOne">Download CV</button></a>
+                    <a href="CV.docx" download aria-label="Click to download CV"><button class="button-one">Download CV</button></a>
             </div>
-            <div class = "col-6 boxTwo">
-                <h1 class = "largText">My qualifications are:</h1><hr>
-                <ul class = "largText1">
+            <div class="col-6 box-two">
+                <h1 class="larg-text">My qualifications are:</h1><hr>
+                <ul class="larg-text1">
                     <li>ISTQB certified at Foundation level</li>
                     <li>Whatever the certificate is called that the Learning People award</li>
                     <li>Please note that the above have not been completed yet. This will be updated when I have completed them</li>
                 </ul>
             </div>
-        </div>
+        </section>
 
-        <div class = "row">
-            <div class = "col-6 boxThree">
-                <p class = "welcomeText">
+        <section class="row">
+            <div class="col-6 box-three">
+                <p class="welcome-text1">
                     Placeholder text!
                 </p>
             </div>
-            <div class = "col-6 boxFour">
-                <p class = "bioText">The languages I am competent in are:</p>
-                    <ul class = "bioText">
+            <div class="col-6 box-four">
+                <p class="bio-text2">The languages I am competent in are:</p>
+                    <ul class="bio-text2">
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <ul>
@@ -120,13 +122,13 @@
                     </ul>
                 
             </div>
-        </div>
+        </section>
         </main>
-        <div class = "row">
-            <div class = "col-12">
-                <footer class = "footer">&copy; 2022 Miriam Smith | Insert Legal Bollocks Here</footer>
+        <footer class="row">
+            <div class="col-12">
+                <span class="footer">&copy; 2022 Miriam Smith | Insert Legal Bollocks Here</span>
             </div>
-        </div>
+        </footer>
 
     </div>
 </body>

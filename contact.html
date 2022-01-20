@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
    <!--The following two meta tags indicate that I am using the most common character coding for the internet, and that my webpage
     is responsive to mobile devices. The first meta tag I learned in a lecture, the second is taken from the Get Bootstrap website-->
@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
     <!--The following is a link to my own CSS stylesheet-->
-    <link rel = "stylesheet" type = "text/css" href = "styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
     <!--The following are links to Bootstrap JavaScript files, taken from the Get Bootstrap website-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -22,120 +22,123 @@
     <title>Contact page - Miriam's Portfolio</title>
 </head>
 <body>
-    <div class = "container">
+    <div class="container">
         <header>
             <!--The following row contains one coloumn, in which I am putting my nav bars-->
-            <div class = "row">
-                <div class = "col-12">
+            <div class="row">
+                <div class="col-12">
+
                     <!--The following hamburger icon navbar was taken from the Bootstrap website and is not my own code-->
-                    <nav class = "nav navbar navbar-expand-md">
+                    <nav class="nav navbar navbar-expand-md">
                         <div class="collapse" id="navbarToggleExternalContent">
                             <div class="bg-dark p-4">
                               <h5 class="text-white h4">Navigation Menu</h5>
                               <span class="text-muted">Please make your selection:</span><br>
-                              <a class = "navMenuItem" aria-label = "home page" href = "index.html">Home</a><br>
-                              <a class = "navMenuItem" aria-label = "biography" href = "bio.html">Bio</a><br>
-                              <a class = "navMenuItem" aria-label = "portfolio" href = "portfolio.html">Portfolio</a><br>
-                              <a class = "navMenuItem" aria-label = "qualifications" href = "quals.html">Qualifications</a><br>
-                              <a class = "navMenuItem" aria-label = "contact me" href = "#">Contact</a><br>
+                              <a class="navMenuItem" aria-label = "home page" href="index.html">Home</a><br>
+                              <a class="navMenuItem" aria-label="biography" href="bio.html">Bio</a><br>
+                              <a class="navMenuItem" aria-label="portfolio" href="portfolio.html">Portfolio</a><br>
+                              <a class="navMenuItem" aria-label="qualifications" href="quals.html">Qualifications</a><br>
+                              <a class="navMenuItem" aria-label="contact me" href="#">Contact</a><br>
                             </div>
                             
                           </div>
-                          <nav class="navbar navbar-dark bg-dark hideNav">
+                          <nav class="navbar navbar-dark bg-dark hide-nav">
                             <div class="container-fluid">
                               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                               </button>
                             </div>
                           </nav>
+
                           <!--The following is my nav menu, written with Bootstrap and minor modifications from my own CSS file-->
-                          
-                            <nav class = "nav nav-bar nav-pills nav-fill navMenu">
-                                <ul class = "nav nav-pills nav-fill">
-                                    <li class = "nav-item navThing">
-                                    <a class = "nav-link navHover navThing" aria-label = "home page" href = "index.html">Home</a>
+                
+                         
+                            <nav class="nav nav-bar nav-pills nav-fill nav-menu">
+                                <ul class="nav nav-pills nav-fill">
+                                    <li class="nav-item nav-thing">
+                                    <a class="nav-link navHover nav-thing" aria-label="home page" href="index.html">Home</a>
                                     </li>
-                                    <li class = "nav-item navThing dropdown">
-                                    <a class = "nav-link navHover navThing" data-bs-toggle = "dropdown" aria-expanded="false" role = "button" aria-label = "About menu" href = "#">About</a>
-                                        <ul class = "dropdown-menu">
-                                            <li><a class = "dropdown-item" href = "bio.html" aria-label = "Biography page">Bio</a></li>
-                                            <li><a class = "dropdown-item" href = "portfolio.html" aria-label = "Portfolio page">Portfolio</a></li>
-                                            <li><a class = "dropdown-item" href = "quals.html" aria-label = "Qualifications">Qualifications</a></li>
-                                        </ul>
+                                    <li class="nav-item nav-thing dropdown">
+                                    <a class="nav-link nav-hover nav-thing" data-bs-toggle="dropdown" aria-expanded="false" role="button" aria-label="About menu" href="#">About</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="bio.html" aria-label="Biography page">Bio</a></li>
+                                        <li><a class="dropdown-item" href="portfolio.html" aria-label="Portfolio page">Portfolio</a></li>
+                                        <li><a class="dropdown-item" href="quals.html" aria-label="Qualifications">Qualifications</a></li>
+                                    </ul>
                                     </li>
-                                    <li class = "nav-item navThing">
-                                    <a class = "nav-link navHover navThing active" aria-label = "Contact page" href = "#">Contact</a>
+                                    <li class="nav-item nav-thing">
+                                    <a class="nav-link nav-hover nav-thing active" aria-label="Contact page" href="#">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
-                        
+                        </nav>
                 </div>
             </div>
 
         </header>
         <main>
             
-        <div class = "row">
-            <div class = "col-6 boxOne">
-                <h1 class = "welcomeText">Thanks for looking at my website :)</h1>
+        <section class="row">
+            <div class="col-6 box-one">
+                <h1 class="welcome-text">Thanks for looking at my website :)</h1>
             </div>
 
-            <div class = "col-6 boxTwo">
-                <h2 class = "largText">If you would like to contact me, my contact details and an online contact form are below</h2>
+            <div class="col-6 box-two">
+                <h2 class="larg-text">If you would like to contact me, my contact details and an online contact form are below</h2>
             </div>
-        </div>
+        </section>
             <!--The following large section of code contains my contact form-->
-        <div class = "row">
-            <div class = "col-6 boxThree">
-                <span>Areas marked with an <b>"*"</b> (asterix) are required fields</span><br><br>
-                    <form action = "https://formspree.io/f/xknygeqr" method ="post" enctype="multipart/form-data">
-                        <label class = "form-label wText" for = "name">* Name: </label>
-                            <input class = "form-control" type = "text" name = "name" id = "name" required = "required"/><br><br>
-                        <label class = "form-label wText" for = "email">* Email: </label>
-                            <input class = "form-control" type = "email" name = "email" id = "email" required = "required"/>
-                        <span class = "smlText">Your email will only be used for responding to your message/query</span><br><br>
-                        <span class = "wText">And some additional information: </span><br>
-                        <label for = "human" class = "wText">
-                            <input type = "radio" value = "human" name = "r1" id = "human" aria-label = "select human">Human</label><br>
-                        <label for = "wookiee" class = "wText">
-                            <input type = "radio" value = "wookiee" name = "r1" id = "wookiee" aria label = "select wookiee">Wookiee</label><br>
-                        <label for = "klingon" class = "wText">
-                            <input type = "radio" value = "klingon" name = "r1" id = "klingon" aria-label = "select klingon" checked>Klingon</label><br>
-                        <label for ="rns" class = "wText">
-                            <input type = "radio" value = "rns" name = "r1" id = "rns" aria-label = "select rather not say">Rather not say</label> <br><br>
+        <section class="row">
+            <div class="col-6 box-three">
+                <span class="w-text">Areas marked with an <b>"*"</b> (asterix) are required fields</span><br><br>
+                    <form action="https://formspree.io/f/xknygeqr" method="post" enctype="multipart/form-data">
+                        <label class="form-label w-text" for="name">* Name: </label>
+                            <input class="form-control" type="text" name="name" id="name" required/><br><br>
+                        <label class="form-label w-text" for="email">* Email: </label>
+                            <input class="form-control" type="email" name="email" id="email" required/>
+                        <span class="sml-text">Your email will only be used for responding to your message/query</span><br><br>
+                        <span class="w-text">And some additional information: </span><br>
+                        <label for="human" class="w-text">
+                            <input type="radio" value="human" name="r1" id="human" aria-label="select human">Human</label><br>
+                        <label for="wookiee" class="w-text">
+                            <input type="radio" value="wookiee" name="r1" id="wookiee" aria label="select wookiee">Wookiee</label><br>
+                        <label for="klingon" class="w-text">
+                            <input type="radio" value="klingon" name="r1" id="klingon" aria-label="select klingon" checked>Klingon</label><br>
+                        <label for="rns" class="w-text">
+                            <input type="radio" value="rns" name="r1" id="rns" aria-label="select rather not say">Rather not say</label> <br><br>
                     
-                        <label for = "Political Affiliation" class = "wText">Political affiliation:</label><br>
-                        <select class = "form-select" aria-label="Select your political affiliation" name = "Political affiliation">
-                            <option value = "select" id = "select" name = "select">--select--</option>
-                            <option value = "farRight" id = "farRight" name = "farRight" aria-label = "Far Right">Far Right</option>
-                            <option value = "exLeft" id = "exLeft" name = "exLeft" aria-label="Extreme Left">Extreme Left</option>
-                            <option value = "liberal" id = "liberal" name = "liberal" aria-label="Wishy washy liberal">Wishy Washy Liberal</option>
-                            <option value = "quaker" id = "quaker" name = "quaker" aria-label="Quaker">Quaker</option>
+                        <label for="Political Affiliation" class="w-text">Political affiliation:</label><br>
+                        <select class="form-select" aria-label="Select your political affiliation" name="Political affiliation">
+                            <option value="select" id="select" name="select">--select--</option>
+                            <option value="farRight" id="farRight" name="farRight" aria-label="Far Right">Far Right</option>
+                            <option value="exLeft" id="exLeft" name="exLeft" aria-label="Extreme Left">Extreme Left</option>
+                            <option value="liberal" id="liberal" name="liberal" aria-label="Wishy washy liberal">Wishy Washy Liberal</option>
+                            <option value="quaker" id="quaker" name="quaker" aria-label="Quaker">Quaker</option>
                         </select><br><br>
 
-                        <span class = "form-label wText">Finally, your message:</span><br>
-                        <textarea class ="form-control" name = "message" id = "message" cols = "28" rows = "9" placeholder="Say something nice :)" aria-label="your message"></textarea>
+                        <span class="form-label w-text">Finally, your message:</span><br>
+                        <textarea class="form-control" name="message" id="message" cols="28" rows="9" placeholder="Say something nice :)" aria-label="your message"></textarea>
                         <br>
-                        <input class = "btn btn-primary" type = "submit" value = "Submit Form" aria-label="submit button">
+                        <input class="btn btn-primary" type="submit" value="Submit Form" aria-label="submit button">
                         <!--I found the information about the following reset buttons on w3 schools-->
-                        <input class = "btn btn-success" type = "reset" value = "Reset Form" aria-label="clear input fields">
+                        <input class="btn btn-success" type="reset" value="Reset Form" aria-label="clear input fields">
                     </form>
             </div>
 
-            <div class = "col-6 boxFour">
-                <h3 class = "bioText1 posCent">Miriam Smith<br>
+            <div class="col-6 box-four">
+                <h3 class="bio-text1 pos-cent">Miriam Smith<br>
                     &phone; <a href = "tel+61437009947" aria-label="phone number">0437 009 947</a><br>
                      email: <a href = "mailto:(miriam@smithydrafting.com.au)" aria-label="email address">miriam@smithydrafting.com.au</a>
                 </h3>
             </div>
-        </div>
+        </section>
         </main>
         <!--The following is a row containing one column, in which is my footer-->
-        <div class = "row">
-            <div class = "col-12">
-                <footer class = "footer">&copy; 2022 Miriam Smith | Insert Legal Bollocks Here</footer>
+        <footer class="row">
+            <div class="col-12">
+                <span class="footer">&copy; 2022 Miriam Smith | Insert Legal Bollocks Here</span>
             </div>
-        </div>
+        </footer>
     </div>
 </body>
 </html>

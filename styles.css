@@ -1,5 +1,5 @@
 
-.navMenu{
+.nav-menu{
     width: 315px;
     height: 53px;
     background-color: #000000;
@@ -8,25 +8,25 @@
     color:#ffffff;
 }
 
-.navThing{
+.nav-thing{
     width: 33%;
 }
 
-.navHover:hover{
+.nav-hover:hover{
     background-color: #8a2be2;
     color:#ffffff;
     width: 33%;
 }
 
-.navHover:active{
+.nav-hover:active{
     border: 2px solid #0000ff;
 }
- .navHover:focus{
+ .nav-hover:focus{
      background-color: #8a2be2;
      color: #ffffff;
  }
 
-.navMenuItem{
+.nav-menu-item{
     color: #ffffff;
     text-decoration: none;
     font-size: 10pt;
@@ -41,67 +41,80 @@
     text-align: center;
 }
 
-.boxOne{
+.box-one{
     background-color: #0000ff;
 }
 
-.boxTwo{
+.box-two{
     background-color: #000000;
 }
 
-.boxThree{
+.box-three{
     background-color: #000000;
 }
 
-.boxFour{
+.box-four{
     background-color: #e0ffff;
 }
 
-.largText{
+.larg-text{
     color:#ffffff;
     font-size: 18pt;
     text-align: center;
 }
 
-.largText1{
+.larg-text1{
     color: #ffffff;
     font-size: 17pt;
     text-align: left;
 }
 
-.bioText{
-    color: #000000;
+.bio-text{
+    color: #ffffff;
     font-size: 14pt;
     text-align: left;
 }
 
-.bioText1{
+.bio-text1{
     color: #000000;
     font-size: 14pt;
     text-align: right;
 }
 
-.welcomeText{
+.bio-text2{
+    color: #000000;
+    font-size: 14pt;
+    text-align: left;
+}
+
+.welcome-text{
     color: #ffffff;
     font-size: 48pt;
 }
 
-.smlText{
+.welcome-text1{
+    color: #ffffff;
+    font-size: 48pt;
+}
+
+.welcome-text2{
+    color: #98fb98;
+    font-size: 48pt;
+}
+
+.sml-text{
     color: #ffffff;
     font-size: 8pt;
 }
 
-.wText{
+.w-text{
     color: #ffffff;
 }
 
-.buttonOne{
+.button-one{
     background-color: #8a2be2;
     color: #ffffff;
     border-radius: 5px;
-    position: relative;
-    left: 5px;
-    top: 55px;
 }
 
 #addText{
@@ -110,71 +123,79 @@
     text-align: right;
 }
 
-.spanClass{
+.span-class{
     font-size: 24pt;
     font-weight: bold;
 }
 
-.posCent{
+.pos-cent{
     position: relative;
     left: 0%;
     top: 40%;
 }
 
-.hideNav{
+.hide-nav{
     display: none;
 }
 
-.whiteText{
+.white-text{
     color: #ffffff;
     font-size: 12pt;
-    position: relative;
-    left: 5px;
-    top: 50px;
     
 }
 
 @media (max-width: 1000px){
 
-    .spanClass{
+    .span-class{
         font-size:18pt;
         font-weight: bold;
     }
 
-    .welcomeText{
+    .welcome-text{
         font-size: 28pt;
         color: #ffffff;
     }
 
-    #addText{
+    .welcome-text2{
+        font-size: 28pt;
+        color: #98fb98;
+    }
+
+    #add-text{
         font-size: 18pt;
         text-align: right;
         color: #ffffff;
     }
 
-    .largText{
+    .larg-text{
         font-size: 16pt;
         text-align: center;
         color: #ffffff;
     }
 
-    .largText1{
+    .larg-text1{
         color: #ffffff;
         font-size: 15pt;
         text-align: left;
     }
     
 
-    .bioText{
+    .bio-text{
         font-size: 8pt;
         text-align: left;
-        color: #000000;
+        color: #ffffff;
     }
 
-    .bioText1{
+    .bio-text1{
         color: #000000;
         font-size: 11pt;
         text-align: right;
+    }
+
+    .bio-text2{
+        font-size: 8pt;
+        text-align: left;
+        color: #000000;
     }
 
     .footer{
@@ -183,7 +204,7 @@
         text-align: center;
     }
 
-    .whiteText{
+    .white-text{
         color: #ffffff;
         font-size: 10pt;
         
@@ -192,53 +213,73 @@
 }
 
 @media (max-width: 761.98px) {
-    .navMenu{
+
+    .row{
+        flex-direction: column;
+    }
+
+    .welcome-text1{
         display: none;
     }
 
-    .hideNav{
+    .nav-menu{
+        display: none;
+    }
+
+    .hide-nav{
         display:block;
     }
 
-    .spanClass{
+    .span-class{
         font-size:12pt;
         font-weight: bold;
     }
 
-    .welcomeText{
+    .welcome-text{
         font-size: 18pt;
         color: #ffffff;
     }
 
-    #addText{
+    .welcome-text2{
+        font-size: 18pt;
+        color: #98fb98;
+    }
+
+    #add-text{
         font-size: 14pt;
         text-align: right;
         color: #ffffff;
     }
 
-    .largText{
+    .larg-text{
         font-size: 12pt;
         text-align: center;
         color: #ffffff;
     }
 
-    .largText1{
+    .larg-text1{
         color: #ffffff;
         font-size: 11pt;
         text-align: left;
     }
     
 
-    .bioText{
+    .bio-text{
         font-size: 8pt;
         text-align: left;
-        color: #000000;
+        color: #ffffff;
     }
 
-    .bioText1{
+    .bio-text1{
         color: #000000;
         font-size: 8pt;
         text-align: right;
+    }
+
+    .bio-text2{
+        font-size: 8pt;
+        text-align: left;
+        color: #000000;
     }
 
     .footer{
@@ -246,7 +287,7 @@
         background-color: #87cefa;
         text-align: center;
     }
-    .whiteText{
+    .white-text{
         color: #ffffff;
         font-size: 8pt;
         
