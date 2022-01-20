@@ -108,7 +108,7 @@ I also used guinea pigs (people I know) to navigate through my website, test it 
 
 - I had brief issues with media queries in CSS until I remembered Cascading Style Sheets are read from top to bottom. I simply moved the code I wanted to have greater precedence to the bottom
 
-- I stupidly used the online GitHub site to commit my work once, instead of the command line interface. After doing this, it refused to commit from the CLI again, insisting that the branches were unrelated and it couldn't merge the changes (even though it was the exact same project). This was a big problem because I wanted to put in folders, which I can do with the CLI but am not sure if you can do with the website. I solved this by cloning my work with the CLI, changing it, and committing it again that way.
+- I stupidly used the online GitHub site to commit my work once, instead of the command line interface. After doing this, it refused to commit from the CLI again, insisting that the branches were unrelated and it couldn't merge the changes (even though it was the exact same project). This was a big problem because I wanted to put in folders, which I can do with the CLI but am not sure if you can do with the website. I attempted to solve this by cloning my work with the CLI, changing it, and committing it again that way. Didn't work. I genuinely have no idea how to solve this.
 
 
 
