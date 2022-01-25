@@ -84,6 +84,9 @@ Contact page:
 - [GitHub](https://github.com)
     - I used GitHub as the online repository for my files, and to host my website (using GitHub Pages)
 
+- [Formspree](https://formspree.io)
+    - I used Formspree to make my contact form functional
+
 
 ## Testing
 ---
@@ -109,6 +112,54 @@ I also used guinea pigs (people I know) to navigate through my website, test it 
 - I had brief issues with media queries in CSS until I remembered Cascading Style Sheets are read from top to bottom. I simply moved the code I wanted to have greater precedence to the bottom
 
 - I stupidly used the online GitHub site to commit my work once, instead of the command line interface. After doing this, it refused to commit from the CLI again, insisting that the branches were unrelated and it couldn't merge the changes (even though it was the exact same project). This was a big problem because I wanted to put in folders, which I can do with the CLI but am not sure if you can do with the website. I attempted to solve this by cloning my work with the CLI, changing it, and committing it again that way. Didn't work. I genuinely have no idea how to solve this.
+
+## Deployment
+---
+
+I used GitHub pages to host my website. I mentioned above that I ran into an issue when it turned out that, after committing your work via the website, you can no longer commit via the command line interface because the two branches don't recognise each other, even if you attempt to clone the project and start from there. 
+
+This has meant that my files have to all be in the same "folder" as you cannot commit folders except through the command line interface. Lesson learned for next time!
+
+Interestingly, I did use the command line interface and `git init` to start my repository, but then added the first file through the webpage whilst I was there.
+
+I didn't know how to fix this, didn't want to start over, so proceeded to do all my commits through the webpage.
+
+I then went into settings -> pages -> and deployed my code into Github Pages.
+
+## Respository Link:
+
+https://mimsysith.github.io/Mimsy-portfolio/
+
+To run my code locally, you can follow these steps:
+
+1. Go to the [github website](https://github.com)
+2. Go to [my repository](https://github.com/MimsySith/Mimsy-portfolio)
+3. Click on 'clone or download'
+4. Download Zip file
+5. Once extracted, extract the zip files to the desired location on your computer and run the website locally.
+
+## Credits
+---
+
+**Content**
+
+- The photos that are placekeepers in my portfolio were taken from stock photos from the website at [pexels.com](https://www.pexels.com)
+- All other photos were taken by me
+- All original artwork (background picture etc.) was done by me. No copyright has been broken.
+- Some code, as indicated in comments, was found at [w3 Schools](https://www.w3schools.com)
+- Bootstrap CSS files and JavaScript files were taken from the Bootstrap website, mentioned above.
+
+**Acknowledgements**
+
+After struggling horribly with the design aspect of my website, thanks to the people at Udemy and one of their UI/UX design courses. 
+
+Inspiration for the black background and black and white head shot came from another developer's website, which I can't seem to find again because I suspect he updated it. Possibly it was Jack Jeznach.
+
+Also, thanks to my mentor in this course, Sunny Hebbar, who told me about various extra websites and tips/tricks.
+
+
+
+
 
 
 

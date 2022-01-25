@@ -1,4 +1,8 @@
 
+body{
+    background-image: url(background_image.png);
+}
+
 .nav-menu{
     width: 315px;
     height: 53px;
@@ -41,22 +45,6 @@
     text-align: center;
 }
 
-.box-one{
-    background-color: #0000ff;
-}
-
-.box-two{
-    background-color: #000000;
-}
-
-.box-three{
-    background-color: #000000;
-}
-
-.box-four{
-    background-color: #e0ffff;
-}
-
 .larg-text{
     color:#ffffff;
     font-size: 18pt;
@@ -76,13 +64,15 @@
 }
 
 .bio-text1{
-    color: #000000;
+   /* color: #000000; */
+   color: #ffffff;
     font-size: 14pt;
     text-align: right;
 }
 
 .bio-text2{
-    color: #000000;
+   /* color: #000000; */
+   color: #ffffff;
     font-size: 14pt;
     text-align: left;
 }
@@ -187,7 +177,7 @@
     }
 
     .bio-text1{
-        color: #000000;
+      /*  color: #000000; */
         font-size: 11pt;
         text-align: right;
     }
@@ -195,7 +185,7 @@
     .bio-text2{
         font-size: 8pt;
         text-align: left;
-        color: #000000;
+       /* color: #000000; */
     }
 
     .footer{
@@ -271,7 +261,7 @@
     }
 
     .bio-text1{
-        color: #000000;
+      /*  color: #000000; */
         font-size: 8pt;
         text-align: right;
     }
@@ -279,7 +269,7 @@
     .bio-text2{
         font-size: 8pt;
         text-align: left;
-        color: #000000;
+    /*    color: #000000; */
     }
 
     .footer{
