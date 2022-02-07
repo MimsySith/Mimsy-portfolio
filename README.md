@@ -115,6 +115,8 @@ I also used guinea pigs (people I know) to navigate through my website, test it 
 
 - Sunny Hebbar eventually showed me the solution to the above problem. I had the basic idea right, cloning the repo and pushing the cloned repo to the main branch, but I was going about it in slightly the wrong way
 
+- With my mobile view, I was having trouble with all the content bunching to one side. I realised, after examining it on Google Chrome's developer tools, that I had set the columns to "col-6" and this was causing content to take up only hlaf the page even when the content was stacked on top of each other. I simply changed all the "col-6" to just "col". This fixed it.
+
 ## Deployment
 ---
 
