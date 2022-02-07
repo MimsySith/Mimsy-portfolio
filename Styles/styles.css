@@ -54,13 +54,11 @@ body{
 .larg-text1{
     color: #ffffff;
     font-size: 17pt;
-    text-align: left;
-}
+ }
 
 .bio-text{
     color: #ffffff;
     font-size: 14pt;
-    text-align: left;
 }
 
 .bio-text1{
@@ -72,7 +70,6 @@ body{
 .bio-text2{
    color: #ffffff;
     font-size: 14pt;
-    text-align: left;
 }
 
 .welcome-text{
@@ -164,13 +161,11 @@ body{
     .larg-text1{
         color: #ffffff;
         font-size: 15pt;
-        text-align: left;
     }
     
 
     .bio-text{
         font-size: 11pt;
-        text-align: left;
         color: #ffffff;
     }
 
@@ -246,13 +241,11 @@ body{
     .larg-text1{
         color: #ffffff;
         font-size: 12pt;
-        text-align: left;
     }
     
 
     .bio-text{
         font-size: 11pt;
-        text-align: left;
         color: #ffffff;
     }
 
@@ -263,7 +256,6 @@ body{
 
     .bio-text2{
         font-size: 11pt;
-        text-align: left;
     }
 
     .footer{
