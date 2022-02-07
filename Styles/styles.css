@@ -1,0 +1,283 @@
+
+body{
+    background-image: url(../Images/background-image.png)
+}
+
+.nav-menu{
+    width: 315px;
+    height: 53px;
+    background-color: #000000;
+    font-size:18pt;
+    border-radius: 10px;
+    color:#ffffff;
+}
+
+.nav-thing{
+    width: 33%;
+}
+
+.nav-hover:hover{
+    background-color: #8a2be2;
+    color:#ffffff;
+    width: 33%;
+}
+
+.nav-hover:active{
+    border: 2px solid #0000ff;
+}
+ .nav-hover:focus{
+     background-color: #8a2be2;
+     color: #ffffff;
+ }
+
+.nav-menu-item{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10pt;
+    width: 33%;
+}
+
+
+
+.footer{
+    font-size: 10pt;
+    background-color: #87cefa;
+    text-align: center;
+}
+
+.larg-text{
+    color:#ffffff;
+    font-size: 18pt;
+    text-align: center;
+}
+
+.larg-text1{
+    color: #ffffff;
+    font-size: 17pt;
+    text-align: left;
+}
+
+.bio-text{
+    color: #ffffff;
+    font-size: 14pt;
+    text-align: left;
+}
+
+.bio-text1{
+   color: #ffffff;
+    font-size: 14pt;
+    text-align: right;
+}
+
+.bio-text2{
+   color: #ffffff;
+    font-size: 14pt;
+    text-align: left;
+}
+
+.welcome-text{
+    color: #ffffff;
+    font-size: 48pt;
+}
+
+.welcome-text1{
+    color: #ffffff;
+    font-size: 48pt;
+}
+
+.welcome-text2{
+    color: #98fb98;
+    font-size: 48pt;
+}
+
+.sml-text{
+    color: #ffffff;
+    font-size: 8pt;
+}
+
+.w-text{
+    color: #ffffff;
+}
+
+.button-one{
+    background-color: #8a2be2;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#addText{
+    color: #ffffff;
+    font-size: 24pt;
+    text-align: right;
+}
+
+.span-class{
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.pos-cent{
+    position: relative;
+    left: 0%;
+    top: 40%;
+}
+
+.hide-nav{
+    display: none;
+}
+
+.white-text{
+    color: #ffffff;
+    font-size: 12pt;
+    
+}
+
+@media (max-width: 1000px){
+
+    .span-class{
+        font-size:18pt;
+        font-weight: bold;
+    }
+
+    .welcome-text{
+        font-size: 28pt;
+        color: #ffffff;
+    }
+
+    .welcome-text2{
+        font-size: 28pt;
+        color: #98fb98;
+    }
+
+    #add-text{
+        font-size: 18pt;
+        text-align: right;
+        color: #ffffff;
+    }
+
+    .larg-text{
+        font-size: 16pt;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .larg-text1{
+        color: #ffffff;
+        font-size: 15pt;
+        text-align: left;
+    }
+    
+
+    .bio-text{
+        font-size: 11pt;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .bio-text1{
+        font-size: 11pt;
+        text-align: right;
+    }
+
+    .bio-text2{
+        font-size: 11pt;
+        text-align: left;
+    }
+
+    .footer{
+        font-size: 10pt;
+        background-color: #87cefa;
+        text-align: center;
+    }
+
+    .white-text{
+        color: #ffffff;
+        font-size: 10pt;
+        
+    }
+
+}
+
+@media (max-width: 761.98px) {
+
+    .row{
+        flex-direction: column;
+    }
+
+    .welcome-text1{
+        display: none;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .hide-nav{
+        display:block;
+    }
+
+    .span-class{
+        font-size:12pt;
+        font-weight: bold;
+    }
+
+    .welcome-text{
+        font-size: 18pt;
+        color: #ffffff;
+    }
+
+    .welcome-text2{
+        font-size: 18pt;
+        color: #98fb98;
+    }
+
+    #add-text{
+        font-size: 14pt;
+        text-align: right;
+        color: #ffffff;
+    }
+
+    .larg-text{
+        font-size: 12pt;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .larg-text1{
+        color: #ffffff;
+        font-size: 12pt;
+        text-align: left;
+    }
+    
+
+    .bio-text{
+        font-size: 11pt;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .bio-text1{
+        font-size: 11pt;
+        text-align: right;
+    }
+
+    .bio-text2{
+        font-size: 11pt;
+        text-align: left;
+    }
+
+    .footer{
+        font-size: 10pt;
+        background-color: #87cefa;
+        text-align: center;
+    }
+    .white-text{
+        color: #ffffff;
+        font-size: 10pt;
+        
+    }
+
+    
+}
+
+
