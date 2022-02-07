@@ -171,7 +171,7 @@ body{
     
 
     .bio-text{
-        font-size: 8pt;
+        font-size: 11pt;
         text-align: left;
         color: #ffffff;
     }
@@ -183,13 +183,13 @@ body{
     }
 
     .bio-text2{
-        font-size: 8pt;
+        font-size: 11pt;
         text-align: left;
        /* color: #000000; */
     }
 
     .footer{
-        font-size: 8pt;
+        font-size: 10pt;
         background-color: #87cefa;
         text-align: center;
     }
@@ -249,37 +249,37 @@ body{
 
     .larg-text1{
         color: #ffffff;
-        font-size: 11pt;
+        font-size: 12pt;
         text-align: left;
     }
     
 
     .bio-text{
-        font-size: 8pt;
+        font-size: 11pt;
         text-align: left;
         color: #ffffff;
     }
 
     .bio-text1{
       /*  color: #000000; */
-        font-size: 8pt;
+        font-size: 11pt;
         text-align: right;
     }
 
     .bio-text2{
-        font-size: 8pt;
+        font-size: 11pt;
         text-align: left;
     /*    color: #000000; */
     }
 
     .footer{
-        font-size: 6pt;
+        font-size: 10pt;
         background-color: #87cefa;
         text-align: center;
     }
     .white-text{
         color: #ffffff;
-        font-size: 8pt;
+        font-size: 10pt;
         
     }
 
