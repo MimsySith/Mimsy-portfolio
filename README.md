@@ -111,18 +111,27 @@ I also used guinea pigs (people I know) to navigate through my website, test it 
 
 - I had brief issues with media queries in CSS until I remembered Cascading Style Sheets are read from top to bottom. I simply moved the code I wanted to have greater precedence to the bottom
 
-- I stupidly used the online GitHub site to commit my work once, instead of the command line interface. After doing this, it refused to commit from the CLI again, insisting that the branches were unrelated and it couldn't merge the changes (even though it was the exact same project). This was a big problem because I wanted to put in folders, which I can do with the CLI but am not sure if you can do with the website. I attempted to solve this by cloning my work with the CLI, changing it, and committing it again that way. Didn't work. I genuinely have no idea how to solve this.
+- I stupidly used the online GitHub site to commit my work once, instead of the command line interface. After doing this, it refused to commit from the CLI again, insisting that the branches were unrelated and it couldn't merge the changes (even though it was the exact same project). This was a big problem because I wanted to put in folders, which I can do with the CLI but am not sure if you can do with the website. I attempted to solve this by cloning my work with the CLI, changing it, and committing it again that way. Didn't work.
+
+- Sunny Hebbar eventually showed me the solution to the above problem. I had the basic idea right, cloning the repo and pushing the cloned repo to the main branch, but I was going about it in slightly the wrong way
 
 ## Deployment
 ---
 
-I used GitHub pages to host my website. I mentioned above that I ran into an issue when it turned out that, after committing your work via the website, you can no longer commit via the command line interface because the two branches don't recognise each other, even if you attempt to clone the project and start from there. 
+I used GitHub pages to host my website. I mentioned above that I ran into an issue when it turned out that, after committing your work via the website, you can no longer commit via the command line interface because the two branches don't recognise each other.
 
-This has meant that my files have to all be in the same "folder" as you cannot commit folders except through the command line interface. Lesson learned for next time!
+This has meant that my files had to all be in the same "folder" as you cannot commit folders except through the command line interface. Lesson learned for next time!
 
 Interestingly, I did use the command line interface and `git init` to start my repository, but then added the first file through the webpage whilst I was there.
 
 I didn't know how to fix this, didn't want to start over, so proceeded to do all my commits through the webpage.
+
+After much ado, I eventually managed to get it right by 
+1. cloning the repo 
+2. linking the new repo to the address of my online repo
+3. tracking the files (including the new folders) with 'git add .'
+4. commiting the files with a message ('git commit -m "message"')
+5. and pushing them to the main branch of the online repo ('git push origin main')
 
 I then went into settings -> pages -> and deployed my code into Github Pages.
 
